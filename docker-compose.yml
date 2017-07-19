@@ -1,0 +1,28 @@
+version: '2'
+services:
+    wordpress:
+        build:
+            context: ./
+            dockerfile: ./Dockerfile
+        links:
+            - db:mysql
+            - mailhog
+        ports:
+            - 8080:80
+        volumes:
+            - ./app:/var/www/html
+        environment:
+            WORDPRESS_DB_PASSWORD: example
+        depends_on:
+           - mailhog
+
+    mailhog:
+        image: mailhog/mailhog
+        ports:
+            - 1025:1025
+            - 8025:8025
+
+    db:
+        image: mariadb
+        environment:
+            MYSQL_ROOT_PASSWORD: example
