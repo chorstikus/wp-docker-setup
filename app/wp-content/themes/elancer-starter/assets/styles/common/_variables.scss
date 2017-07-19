@@ -1,0 +1,33 @@
+// Colors
+$grey-lighter: #f3f3f3;
+$grey-light: #d1d1d1;
+$grey-dark: #343d48;
+$turquoise: #43bed4;
+$pink: #da536c;
+$brand-primary: #27ae60;
+$blue-dark: #1d2630;
+
+$body-background: white;
+
+//Typography
+$body-size: 16px;
+$body-size-small: 0.875rem;
+$family-sans-serif: 'Open Sans', sans-serif;
+
+//Breakpoints
+$tablet: 768px;
+$fullhd: 1192px;
+
+$size-h1: 4.5rem;
+$size-h2: 3rem;
+$size-h3: 1.5rem;
+$size-h4: $size-h3;
+$size-h5: $size-h3;
+$size-h6: $size-h3;
+
+$size-h1-mobile: $size-h1 - 2rem;
+$size-h2-mobile: $size-h2 - 1rem;
+$size-h3-mobile: $size-h3;
+$size-h4-mobile: $size-h3;
+$size-h5-mobile: $size-h3;
+$size-h6-mobile: $size-h3;

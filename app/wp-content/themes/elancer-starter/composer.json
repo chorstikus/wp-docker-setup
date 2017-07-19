@@ -1,0 +1,24 @@
+{
+  "name": "elancer-team",
+  "type": "wordpress-theme",
+  "license": "MIT",
+  "description": "WordPress starter theme with a modern development workflow",
+  "homepage": "https://elancer-team.de/",
+  "authors": [
+    {
+      "name": "Christian Horstmann",
+      "email": "c.horstmann@elancer-team.de",
+      "homepage": "https://elancer-team.de"
+    }
+  ],
+  "keywords": [
+    "wordpress"
+  ],
+  "require": {
+    "php": ">=5.6.4",
+    "composer/installers": "~1.0"
+  },
+  "require-dev": {
+    "squizlabs/php_codesniffer": "^2.5.1"
+  }
+}
